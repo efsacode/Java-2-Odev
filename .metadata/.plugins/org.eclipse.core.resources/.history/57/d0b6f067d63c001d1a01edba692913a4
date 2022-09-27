@@ -1,0 +1,12 @@
+package ogrenci;
+
+public class Ogrenci {
+	String name;
+	int schoolNumber;
+	char branch;
+	
+	static void Rapor() {
+		System.out.println(name +" - " +schoolNumber +" - " +branch);
+	}
+
+}

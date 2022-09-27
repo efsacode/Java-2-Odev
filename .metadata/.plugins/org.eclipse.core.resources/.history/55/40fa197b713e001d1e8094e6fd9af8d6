@@ -1,0 +1,24 @@
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Soldier soldier1 = new Soldier();
+		
+		soldier1.setName("Thomas");
+		soldier1.setNumber(111);
+		soldier1.setHealth(200);
+		soldier1.setBullet(25);
+		
+		Soldier soldier2 = new Soldier();
+		
+		soldier2.setName("Carter");
+		soldier2.setNumber(110);
+		soldier2.setHealth(150);
+		soldier2.setBullet(30);
+		
+		System.out.println("The info about first soldier: " +"\n" +"Name: " +soldier1.getName() +"\n" +"Number: "+soldier1.getNumber() +"\n" +"Health: " +soldier1.getHealth() +"\n" +"Bullet: "+soldier1.getBullet());
+		System.out.println("The info about second soldier: " +"\n" +"Name: " +soldier2.getName() +"\n" +"Number: "+soldier2.getNumber() +"\n" +"Health: " +soldier2.getHealth() +"\n" +"Bullet: "+soldier2.getBullet());			
+	
+	}
+}

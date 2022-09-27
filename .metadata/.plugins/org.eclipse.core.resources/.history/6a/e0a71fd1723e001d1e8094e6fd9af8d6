@@ -1,0 +1,14 @@
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Warlock warlock1 = new Warlock("Vecna", "Halucination", 100, 100);
+		Warlock warlock2 = new Warlock("Eleven", "Telekinesis", 100, 80);
+		
+		System.out.println("First warlock:" +warlock1);
+		
+		
+		
+	}
+}

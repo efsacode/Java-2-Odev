@@ -1,0 +1,7 @@
+
+public class ShoppingList {
+	public void AddToList(Games game) {
+		System.out.println(game.gameName +" added in to your shopping list.");
+	}
+
+}

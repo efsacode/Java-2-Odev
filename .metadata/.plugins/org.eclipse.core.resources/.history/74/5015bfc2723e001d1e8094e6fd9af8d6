@@ -1,0 +1,10 @@
+
+public class Warlock {
+	private String name;
+	private int number;
+	private int bullet;
+	private int health;
+	
+	
+	
+}

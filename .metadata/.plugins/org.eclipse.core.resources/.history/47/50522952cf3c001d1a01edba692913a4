@@ -1,0 +1,14 @@
+
+public class Main {
+
+	public static void main(String[] args) {
+		int result;
+		result = sum(5,10);
+
+	}
+	public static int sum(int first, int end) {
+		if(end>first)
+			int sum = end+sum(end-1);
+	}
+
+}

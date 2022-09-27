@@ -1,0 +1,8 @@
+package ogrenci;
+
+public class Ogrenci {
+	String name;
+	int schoolNumber;
+	char branch;
+
+}

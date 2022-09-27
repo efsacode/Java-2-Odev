@@ -1,0 +1,19 @@
+
+public class Main {
+
+	public static void main(String[] args) {
+		int result;
+		result = sum(40,60);
+		System.out.println(result);
+
+	}
+	public static int sum(int first, int end) {
+		if(end<first) {
+		return first + sum(first, end-1);
+		}
+		else {
+			return end;
+		}
+	}
+
+}

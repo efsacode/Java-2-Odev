@@ -1,0 +1,15 @@
+
+public class Warlock {
+	private String name;
+	private String powerType;
+	private int power;
+	private int Health;
+	
+	public Warlock(String name, String powerType, int power, int health) {
+		super();
+		this.name = name;
+		this.powerType = powerType;
+		this.power = power;
+		Health = health;
+	}
+}

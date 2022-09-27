@@ -1,0 +1,7 @@
+
+public class Hesaplama {
+	public int toplama(int sayi1, int sayi2) {
+		
+	}
+
+}

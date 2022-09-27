@@ -1,0 +1,21 @@
+
+public class Main {
+
+	public static void main(String[] args) {
+		Games game1 = new Games();
+		game1.gameName = "Dead by Daylight";
+		game1.price = 90;
+		game1.requiredRamGb = 8;
+
+		Games game2 = new Games();
+		game2.gameName = "The Sims 4";
+		game2.price = 200;
+		game2.requiredRamGb = 4;
+
+		ShoppingList shoppingList = new ShoppingList();
+
+		shoppingList.AddToList(game1);
+		shoppingList.AddToList(game2);
+
+	}
+}
